@@ -1,0 +1,23 @@
+.nav-logo img{
+    height: 60px;
+    width: 160px;
+}
+
+.nav-login :hover{
+    color: #fc8019;
+}
+
+.locate img{
+    height: 24px;
+    width: 24px;
+}
+
+.find_food{
+    background-color: #fc8019;
+    /* padding: ; */
+}
+
+.food_swiggy img{
+    height: 570px;
+    width: 640px;
+}
