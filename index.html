@@ -2,82 +2,382 @@
 <html lang="en">
 
 <head>
+
+  <style>
+    .y2_ab {
+      color: #93959f;
+    }
+  </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Swiggy</title>
+  <title>swiggy</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-  <!-- <section> -->
-  <div class="altaf d-flex">
-    <div class="col col-lg-6 p-5">
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col col-lg-6 p-5">
+          <nav class="navbar navbar-toggler">
+            <div class="navbar-brand"></div>
+            <div class="client_server">
+              <a href="#" class="login_page text-decoration-none text-dark fw-bold mx-3">Login</a>
+              <a href="#"
+                class="sign_up_page text-decoration-none text-dark text-white bg-dark p-2 px-4 text-center">Sign up</a>
+            </div>
+          </nav>
+          <div id="phrase">
+            <h1>Cooking gone wrong?</h1>
+            <h1>Unexpected guest?</h1>
+            <h1>Hungry?</h1>
+            <!-- <h1>Hungry?</h1> -->
+            <!-- <h1>Cooking gone Wrong?</h1> -->
+            <!-- <h1>Late night at office?</h1> -->
+            <h1>Movie marathon?</h1>
+            <h1>Game night?</h1>
+          </div>
+          <p class="order_food fs-5 text-secondary">Order food from favourite restaurants near you.</p>
 
-      <div class="panel mt-5 d-flex justify-content-between">
-        <div class="panel-logo">
+          <div class="search d-flex border border-dark justify-content-between">
+            <div class="delivery_add">
+              <input type="text" name="location" id="location" placeholder="Enter your delivery location"
+                class="form-control delivery_location fs-6 mx-2 mt-2 border border-0 text-secondary fw-semibold">
+            </div>
+
+            <div class="locate d-flex">
+              <a href="#" class="locate_me_anchor
+                        text-decoration-none text-secondary p-3">
+                <img src="images/location.png" alt="location">
+                <p class="find_me d-inline fw-semibold ">Locate Me</p>
+              </a>
+
+              <a href="#" class="food text-decoration-none text-white p-3"><b>FIND FOOD</b></a>
+            </div>
+          </div>
+          <div class="cities">
+            <p class="popular_city">
+              POPULAR CITIES IN INDIA
+            </p>
+            <ul class="cities_in_india ">
+              <li class="abc"><a href="#" class=" abc_d y2_ab" style="color: #686b78;">Ahemdabad</a></li>
+              <li class="abc"><a href="#" class=" abc_d x2_ab" style="color: #93959f;">Banglore</a></li>
+              <li class="abc"><a href="#" class=" abc_d y2_ab" style="color: #686b78;">Chennai</a></li>
+              <li class="abc"><a href="#" class=" abc_d x2_ab" style="color: #93959f;">Delhi</a></li>
+              <li class="abc"><a href="#" class=" abc_d y2_ab" style="color: #686b78;">Gurgaon</a></li>
+              <li class="abc"><a href="#" class=" abc_d x2_ab" style="color: #93959f;">Hydrabad</a></li>
+              <li class="abc"><a href="#" class=" abc_d y2_ab" style="color: #686b78;">Kolkata</a></li>
+              <li class="abc"><a href="#" class=" abc_d x2_ab" style="color: #93959f;">Mumbai</a></li>
+              <li class="abc"><a href="#" class=" abc_d y2_ab" style="color: #686b78;">Pune</a></li>
+              <li class="abc"><a href="#" class=" abc_d x2_ab" style="color: #93959f;">&more</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="panel-client mt-3">
-          <a href="#" class="panel-login text-decoration-none text-dark text-bold p-4"><b>Login</b></a>
-          <a href="#" class="panel-sign_up bg-dark py-2 px-4 text-decoration-none text-white"><b>Sign up</b></a>
+        <div class="col col-lg-6 panel_second">
         </div>
       </div>
-      <div class="favourite_resto fade-up">
-        <h1 class="night">Good Night?</h1>
-        <h1 class="night">Movie Marathon?</h1>
-        <h1 class="night">Game night?</h1>
-        <h1 class="night">Late night at office?</h1>
-        <h1 class="night">Unexpected Guest?</h1>
-        <h1 class="night">Hungry?</h1>
-      </div>
-      <p class="near_resto text-secondary fs-4">Order food form favourite restaurants near you.</p>
+    </div>
+  </section>
 
-      <div class="search d-flex border border-dark justify-content-between">
-
-        <div class="delivery_add">
-          <input type="text" name="location" id="location" placeholder="Enter your delivery location"
-            class="delivery_location fs-5 mx-2 mt-2 border border-0 fw-semibold">
+  <section>
+    <div class="container-fluid order_section">
+      <div class="row d-flex text-center lg ">
+        <div class="col col-lg-4">
+          <div class="no_min mt-2 ">
+            <img src="images/4x_-_No_min_order.jpg" alt="minimum order" class="order_minimum img-fluid ">
+            <div class="order_heading">
+              No Minimum Order
+            </div>
+            <div class="order_para">
+              Order in for yourself or for the group, with no restrictions on order value
+            </div>
+          </div>
         </div>
-        
-        <div class="locate d-flex">
-            <a href="#" class="locate_me_anchor
-                      text-decoration-none text-secondary p-3">
-              <img src="images/location.png" alt="location">
-              <p class="find_me d-inline fw-semibold ">Locate Me</p>
+
+        <div class="col col-lg-4">
+          <div class="live_order">
+            <img src="images/4x_Live_order_zzotwy.jpg" alt="live order" class="img-fluid _3fce">
+            <div class="order_heading">
+              Live Order Tracking
+            </div>
+            <div class="order_para">
+              Know where your order is at all times, from the restaurant to your doorstep
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4">
+          <div class="super_fast mt-3">
+            <img src="images/4x_-_Super_fast_delivery_awv7sn.jpg" alt="super-fast" class="img-fluid _2abc">
+            <div class="order_heading">
+              Lightning-Fast Delivery
+            </div>
+            <div class="order_para">
+              Experience Swiggy's superfast delivery for food delivered fresh & on time
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container-fluid">
+      <div class="social_media d-flex">
+        <div class="col col-lg-4 mt-5">
+          <div class="resto_play_app mx-3">
+
+            <h1 class="pocket pt-5 pe-5 ">Restaurants in your pocket</h1>
+            <p class="fav_resto text-secondary mt-4">Order from your favorite restaurants & track on the go, with the
+              all-new
+              Swiggy app.</p>
+
+            <div class="play_store mt-5 d-flex">
+              <a href="#">
+                <img src="images/play.jpg" alt="play_store" class="play_store_a me-3" height="54">
+              </a>
+              <a href="#">
+                <img src="images/app_store.jpg" alt="app_store" class="app_store_b position-absolute" height="54">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 iphone">
+          <img src="images/phone.jpg" alt="iphone" height="489" width="384" class="img-fluid">
+        </div>
+
+        <div class="col col-lg-4 iphone_second mt-5">
+          <img src="images/iPhone2.jpg" alt="iphone_second" height="489" width="384" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container-fluid footer pt-5">
+      <!-- <div class="row"> -->
+      <div class="company_footer d-flex">
+        <div class="col col-lg-3 ">
+          <div class="_2alt">
+            <ul class="_3ahr">
+              <h5 class="company_logo fs-6">COMPANY</h5>
+              <li class="_3bht"><a href="#" class="_3bkc">About us</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Team</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Careers</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Swiggy Blog</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bug Bounty</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Swiggy One</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Swiggy Corporate</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Swiggy investamart</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Swiggy Genie</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Swiggy HDFC Bank Credit Card</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col col-lg-3 ">
+          <div class="_2alt">
+            <ul class="_3ahr">
+              <h5 class="company_logo fs-6">CONTACT</h5>
+              <li class="_3bht"><a href="#" class="_3bkc">Help & Support</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Partner with us</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Ride with us</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col col-lg-3">
+          <div class="_2alt">
+            <ul class="_3ahr">
+              <h5 class="company_logo fs-6">LEGAL</h5>
+              <li class="_3bht"><a href="#" class="_3bkc">Term & Condition</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Refund & Cancellation</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Privacy & Policy</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Cookie Policy</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Offer Terms</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Phising & Fraud</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Corporate - Swiggy Money Codes Terms and Conditions</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Corporate - Swiggy Discount Voucher Terms and Conditions</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col col-lg-3 mt-5">
+          <div class="_2alt">
+            <a href="#">
+              <div class="app_store_1"></div>
             </a>
+            <a href="#">
+              <div class="play_store_1"></div>
+            </a>
+          </div>
+        </div>
 
-            <a href="#" class="food text-decoration-none text-white p-3"><b>FIND FOOD</b></a>
+      </div>
+
+      <div class="deliver_cities d-flex">
+        <div class="col col-lg-3 ">
+          <div class="_2alt">
+            <ul class="_3ahr">
+              <h5 class="company_logo fs-6">we deliver to</h5>
+              <li class="_3bht"><a href="#" class="_3bkc">Abohar</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Adilbad</li>
+              <li class="_3bht"><a href="#" class="_3bkc">Adoni</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Agra</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Ahemdabad</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Ahemadnagar</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Aizawl</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Ajmer</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Akola</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Alappuzha</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Aligarh</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Alipurdaur</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Allahabad</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Almore</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Alwar</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Ambajogai</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Ambala</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Ambikapur</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Ambur</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Amravati</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Amreli</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Amritsar</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Anand</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Anantapur</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Ankleshwar</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Arakkonam</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Arambagh</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Araria</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Arrah</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Asansol</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Aurangabad</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Aurangabadbihar</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Azamgarh</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Baddi</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bagalkot</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bagdogra</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bahadurgarh</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bahraich</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Balaghat</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Balangir</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Balasore</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Ballari</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Ballia</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Balrampur</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Balurghat</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Banda</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Banglore</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bantwal</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Baramati</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Baran</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bardhaman</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bardoli</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bareilly</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Barh</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Baripada</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Barmer</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Barnala</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Barshi</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Basirhat</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Basti</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Batala</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bathinda</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Beawar</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Beed</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Begusarai</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bela-Pratapgarh</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Belgaum</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Berhampore</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Berhampur</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bettiah</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Betul</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bhadohi</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bhadrachalam</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bhadrak</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bhadravati</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bhagalpur</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bhandara</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bharabanki</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bharatpur</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bharuch</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bhatkal</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bhavnagar</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bhawanipatna</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bhilai</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">bhimavaram</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bhind</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bhiwandi</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bhopal</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bhubaneswar</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bhuj</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bhusawal</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bidar</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Biharsharif</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bijapur</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bijnor</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bikaner</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bilaspur</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Billimora</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Biswanath-Chariali</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bodhan-Rural</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bodinayakanur</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Boisar</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bolpur</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bongaigaon</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bongaon</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Budaun</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bulalndshahr</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Buldana</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Bundi</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Burhanpur</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Buxar</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Central-Goa</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Chaibasa</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Chakadaha</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Chalisgaon</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Chandausi</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Chandigarh</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Chandrapur</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Chennai</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Chhapra</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Chhatarpur</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Chhindwara</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Chidamabaram</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Chiplun</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Chitradurga</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Chittoor</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Chittorgarh</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Churu</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Coimbatore</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Cooch-Behar</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Cuddalore</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Cuttack</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Dahanu</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Dahod</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Daltonganj</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Daman</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Darbhanga</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Darjeeling</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Dasuya</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Dausa</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Davanagere</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Dehradun</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Dehri</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc">Delhi</a></li>
+            </ul>
+          </div>
         </div>
       </div>
-
-      <div class="cities">
-        <h6>Popular cities in india</h6>
-      </div>
-      
-      <div class="cities_india">
-        <!-- <ul class="swiggy_cities"> -->
-          <span class="ahmedabad  fw-semibold  mx-2"><a href="#" class="cities_anchor text-dark">Ahmedabad</a></span>
-          <span class="banglore city mx-2"><a href="#" class="cities_anchor">Banglore</a></span>
-          <span class="chennai fw-semibold  city mx-2"><a href="#" class="cities_anchor text-dark">Chennai</a></span>
-          <span class="delhi city mx-2"><a href="#" class="cities_anchor">Delhi</a></span>
-          <span class="gurgaon city mx-2"><a href="#" class="cities_anchor text-dark">Gurgaon</a></span>
-          <span class="hydrabad  fw-semibold city mx-2"><a href="#" class="cities_anchor">Hydrabad</a></span>
-          <span class="kolkata city mx-2"><a href="#" class="cities_anchor text-dark">Kolkata</a></span>
-          <span class="mumbai  fw-semibold  city mx-2"><a href="# "class=cities_anchor>Mumbai</a></span>
-          <span class="pune  fw-semibold city mx-2"><a href="#" class="cities_anchor text-dark">Pune</a></span>
-          <span class="more city mx-2"><a href="#" class="cities_anchor">&more</a></span>
-        <!-- </ul> -->
-      </div>
-
-
-
+      <!-- </div> -->
     </div>
-
-    <div class="col col-lg-6 food_swiggy">
-    </div>
-  </div>
-  <!-- </section> -->
+  </section>
+  <h1>Hello, world!</h1>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
