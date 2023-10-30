@@ -173,5 +173,29 @@ body{
     width: 100%;
 }
 
+._3Ardc {
+    list-style: none;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+.black_logo img{
+    height: 40px;
+    width: 140px;
+}
+
+.social_network img{ 
+    height: 24px;
+    width: 24px;
+    margin-left: 20px;
+}
+
+._3Ardc :hover{
+
+    text-shadow: white;
+}
+
+
+
 
 
