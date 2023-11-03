@@ -1,14 +1,11 @@
 body{
     margin: 0;
+    padding: 0;
 }
 
-.navbar-brand{
-    background-image: url(images/logo_swiggy.png);
-    height: 60px;
-    width: 190px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.navbar-brand img{
+    height: 50px;
+    width: 160px;
 }
 
 .client_server a{
@@ -33,11 +30,9 @@ body{
 }
 
 
-.panel_second{
-    background-image: url(images/food_swiggy.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.panel_second img{
+    height: 90%;
+    width: 100%;
 }
 
 .popular_city{
@@ -90,8 +85,8 @@ body{
     background-color: #2b1e16;
     padding-left: 20px;
     padding-right: 20px;
-    height: 350px;
-    width: 100%;
+    /* height: 350px; */
+    /* width: 100%; */
     color: white;
 }
 
@@ -195,7 +190,17 @@ body{
     text-shadow: white;
 }
 
+@media screen and (max-width: 600px) {
+
+
+    .panel_1{
+        display: flex;
+    }
+
+    #phrase h1{
+        font-size: 20px;
+    }
 
 
 
-
+}

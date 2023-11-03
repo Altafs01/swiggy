@@ -3,11 +3,11 @@
 
 <head>
 
-  <style>
+  <!-- <style>
     .y2_ab {
       color: #93959f;
     }
-  </style>
+  </style> -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>swiggy</title>
@@ -18,73 +18,78 @@
 </head>
 
 <body>
-  <section>
-    <div class="container-fluid">
+  <section class="banner my-5 ">
+    <div class="container">
       <div class="row">
-        <div class="col col-lg-6 p-5">
-          <nav class="navbar navbar-toggler">
-            <div class="navbar-brand"></div>
-            <div class="client_server">
-              <a href="#" class="login_page text-decoration-none text-dark fw-bold mx-3">Login</a>
-              <a href="#"
-                class="sign_up_page text-decoration-none text-dark text-white bg-dark p-2 px-4 text-center">Sign up</a>
+        <div class="panel_1">
+          <div class="col col-lg-6 p-5">
+            <nav class="navbar">
+              <div class="navbar-brand">
+                <img src="images/logo_swiggy.png" alt="logo_swiggy">
+              </div>
+              <div class="client_server">
+                <a href="#" class="login_page text-decoration-none text-dark fw-bold mx-3">Login</a>
+                <a href="#"
+                  class="sign_up_page text-decoration-none text-dark text-white bg-dark p-2 px-4 text-center">Sign up</a>
+              </div>
+            </nav>
+            <div id="phrase">
+              <h1>Cooking gone wrong?</h1>
+              <h1>Unexpected guest?</h1>
+              <h1>Hungry?</h1>
+              <!-- <h1>Hungry?</h1> -->
+              <!-- <h1>Cooking gone Wrong?</h1> -->
+              <!-- <h1>Late night at office?</h1> -->
+              <h1>Movie marathon?</h1>
+              <h1>Game night?</h1>
             </div>
-          </nav>
-          <div id="phrase">
-            <h1>Cooking gone wrong?</h1>
-            <h1>Unexpected guest?</h1>
-            <h1>Hungry?</h1>
-            <!-- <h1>Hungry?</h1> -->
-            <!-- <h1>Cooking gone Wrong?</h1> -->
-            <!-- <h1>Late night at office?</h1> -->
-            <h1>Movie marathon?</h1>
-            <h1>Game night?</h1>
-          </div>
-          <p class="order_food fs-5 text-secondary">Order food from favourite restaurants near you.</p>
-
-          <div class="search d-flex border border-dark justify-content-between">
-            <div class="delivery_add">
-              <input type="text" name="location" id="location" placeholder="Enter your delivery location"
-                class="form-control delivery_location fs-6 mx-2 mt-2 border border-0 text-secondary fw-semibold">
+            <p class="order_food fs-5 text-secondary">Order food from favourite restaurants near you.</p>
+  
+            <div class="search d-flex border border-dark justify-content-between">
+              <div class="delivery_add">
+                <input type="text" name="location" id="location" placeholder="Enter your delivery location"
+                  class="form-control delivery_location fs-6 mx-2 mt-2 border border-0 text-secondary fw-semibold">
+              </div>
+  
+              <div class="locate d-flex">
+                <a href="#" class="locate_me_anchor
+                          text-decoration-none text-secondary p-3">
+                  <img src="images/location.png" alt="location" class="loc1 img-fluid">
+                  <p class="find_me d-inline fw-semibold ">Locate Me</p>
+                </a>
+  
+                <a href="#" class="food text-decoration-none text-white p-3"><b>FIND FOOD</b></a>
+              </div>
             </div>
-
-            <div class="locate d-flex">
-              <a href="#" class="locate_me_anchor
-                        text-decoration-none text-secondary p-3">
-                <img src="images/location.png" alt="location">
-                <p class="find_me d-inline fw-semibold ">Locate Me</p>
-              </a>
-
-              <a href="#" class="food text-decoration-none text-white p-3"><b>FIND FOOD</b></a>
+            <div class="cities">
+              <p class="popular_city">
+                POPULAR CITIES IN INDIA
+              </p>
+              <ul class="cities_in_india ">
+                <li class="abc"><a href="#" class=" abc_d y2_ab" style="color: #686b78;">Ahemdabad</a></li>
+                <li class="abc"><a href="#" class=" abc_d x2_ab" style="color: #93959f;">Banglore</a></li>
+                <li class="abc"><a href="#" class=" abc_d y2_ab" style="color: #686b78;">Chennai</a></li>
+                <li class="abc"><a href="#" class=" abc_d x2_ab" style="color: #93959f;">Delhi</a></li>
+                <li class="abc"><a href="#" class=" abc_d y2_ab" style="color: #686b78;">Gurgaon</a></li>
+                <li class="abc"><a href="#" class=" abc_d x2_ab" style="color: #93959f;">Hydrabad</a></li>
+                <li class="abc"><a href="#" class=" abc_d y2_ab" style="color: #686b78;">Kolkata</a></li>
+                <li class="abc"><a href="#" class=" abc_d x2_ab" style="color: #93959f;">Mumbai</a></li>
+                <li class="abc"><a href="#" class=" abc_d y2_ab" style="color: #686b78;">Pune</a></li>
+                <li class="abc"><a href="#" class=" abc_d x2_ab" style="color: #93959f;">&more</a></li>
+              </ul>
             </div>
-          </div>
-          <div class="cities">
-            <p class="popular_city">
-              POPULAR CITIES IN INDIA
-            </p>
-            <ul class="cities_in_india ">
-              <li class="abc"><a href="#" class=" abc_d y2_ab" style="color: #686b78;">Ahemdabad</a></li>
-              <li class="abc"><a href="#" class=" abc_d x2_ab" style="color: #93959f;">Banglore</a></li>
-              <li class="abc"><a href="#" class=" abc_d y2_ab" style="color: #686b78;">Chennai</a></li>
-              <li class="abc"><a href="#" class=" abc_d x2_ab" style="color: #93959f;">Delhi</a></li>
-              <li class="abc"><a href="#" class=" abc_d y2_ab" style="color: #686b78;">Gurgaon</a></li>
-              <li class="abc"><a href="#" class=" abc_d x2_ab" style="color: #93959f;">Hydrabad</a></li>
-              <li class="abc"><a href="#" class=" abc_d y2_ab" style="color: #686b78;">Kolkata</a></li>
-              <li class="abc"><a href="#" class=" abc_d x2_ab" style="color: #93959f;">Mumbai</a></li>
-              <li class="abc"><a href="#" class=" abc_d y2_ab" style="color: #686b78;">Pune</a></li>
-              <li class="abc"><a href="#" class=" abc_d x2_ab" style="color: #93959f;">&more</a></li>
-            </ul>
           </div>
         </div>
         <div class="col col-lg-6 panel_second">
+          <img src="images/food_swiggy.jpg" alt="food_images" class="img-fluid">
         </div>
       </div>
     </div>
   </section>
 
-  <section>
-    <div class="container-fluid order_section">
-      <div class="row d-flex text-center lg ">
+  <section class="panel_5 py-5">
+    <div class="container">
+      <div class="row order_section d-flex text-center">
         <div class="col col-lg-4">
           <div class="no_min mt-2 ">
             <img src="images/4x_-_No_min_order.jpg" alt="minimum order" class="order_minimum img-fluid ">
@@ -668,7 +673,7 @@
           <div class="_2alt">
             <ul class="_3ahr">
               <li class="_3bht"><a href="#" class="_3bkc"> Buffelo Meat Restaurants Near Me</a></li>
-              <li class="_3bht"><a href="#" class="_3bkc"> Cafe  Restaurants Near Me</a></li>
+              <li class="_3bht"><a href="#" class="_3bkc"> Cafe Restaurants Near Me</a></li>
               <li class="_3bht"><a href="#" class="_3bkc"> Chaat Restaurants Near Me</a></li>
               <li class="_3bht"><a href="#" class="_3bkc"> Chettinad Restaurants Near Me</a></li>
               <li class="_3bht"><a href="#" class="_3bkc"> Chinese Restaurants Near Me</a></li>
@@ -701,7 +706,7 @@
             </ul>
           </div>
         </div>
-        
+
         <div class="col col-lg-3">
           <div class="_2alt">
             <ul class="_3ahr">
@@ -740,7 +745,7 @@
 
       <div class="foot_end p-4 d-flex justify-content-between">
         <div class="black_logo">
-            <a href="#"><img src="images/Logo_black.jpg" alt="swiggy_black_logo" class="swiggy_logo_2 img-fluid "></a>
+          <a href="#"><img src="images/Logo_black.jpg" alt="swiggy_black_logo" class="swiggy_logo_2 img-fluid "></a>
         </div>
         <div class="main_web text-white fs-5">
           <p class="info_swiggy">
@@ -755,7 +760,7 @@
         </div>
       </div>
 
-      
+
 
     </div>
   </section>
