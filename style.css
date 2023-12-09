@@ -1,39 +1,39 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
-.container{
+.container {
     overflow: hidden;
 }
 
-.navbar-brand img{
+.navbar-brand img {
     height: 50px;
     width: 160px;
 }
 
-.client_server a{
+.client_server a {
     font-weight: 600;
 }
 
-.input-group-text{
+.input-group-text {
     background-color: #fc8016;
 }
 
-.locate img{
+.locate img {
     height: 14px;
     width: 14px;
 }
 
-.food{
+.food {
     background-color: #fc8016;
 }
 
-.search:hover{
+.search:hover {
     border-color: 1px solid #fc8016;
 }
 
-.popular_city{
+.popular_city {
     color: #a9abb2;
     color: #a9abb2;
     font-size: 15px;
@@ -42,124 +42,122 @@ body{
     text-transform: uppercase;
 }
 
-.cities_in_india li a{
+.cities_in_india li a {
     text-decoration: none;
-    /* color: black; */
 }
 
-.cities_in_india{
+.cities_in_india {
     margin-left: -35px;
-    /* width: 570px; */
     list-style: none;
+}
+
+.cor {
+    font-size: 12px;
 }
 
 .abc_d {
     text-decoration: none;
 }
 
-.abc{
-    display: inline-block;   
+.abc {
+    display: inline-block;
 }
 
-.y2_ab{
+.y2_ab {
     font-weight: 600;
     margin-right: 8px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: -.3px;
-    /* color: #686b78; */
 }
 
-.x2_ab{
+.x2_ab {
     font-weight: 600;
     margin-right: 8px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: -.3px;
-    /* color: #93959f; */
 }
 
-.panel_5{
+.panel_5 {
     background-color: #2b1e16;
     color: white;
 }
 
-.fav_resto{
+.fav_resto {
     font-size: 19px;
 }
 
-.order_minimum{
+.order_minimum {
     height: 199px;
     width: 105px;
 }
 
-.order_heading{
+.order_heading {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
-.order_para{
+.order_para {
     color: #e0cbc1;
-    /* width: 260px; */
     text-align: center;
     margin-top: 10px;
     line-height: 1.3;
     padding-left: 55px;
     padding-right: 55px;
     font-size: 15px;
-    /* margin-left: 30px; */
 }
 
-._3fce{
+._3fce {
     height: 206px;
     width: 112px;
 }
 
-._2abc{
+._2abc {
     height: 188px;
     width: 124px;
 }
 
-.footer{
+.footer {
     background-color: #000;
 }
 
-.company_footer{
-    padding-bottom: 30px ;
+.company_footer {
+    padding-bottom: 30px;
     max-width: 1200px;
     min-width: 1200px;
     border-bottom: 1px solid #4d4d4d;
 }
 
 
-._3bht{
+._3bht {
     margin-top: 15px;
 }
 
-._3ahr{
+._3ahr {
     list-style: none;
-    margin-top: 30px;    
+    margin-top: 30px;
 }
 
-._2alt li a{
+._2alt li a {
     text-decoration: none;
     color: white;
 }
 
-.company_logo{
+.company_logo {
     color: #808080;
-    
+
 }
 
-.app_store_1{
+.app_store_1 {
     background-image: url(images/icon-AppStore_lg30tv.png);
     background-repeat: no-repeat;
     height: 100px;
     width: 100%;
 }
 
-.play_store_1{
+.play_store_1 {
     background-image: url(images/icon-GooglePlay_1_zixjxl.png);
     background-repeat: no-repeat;
     height: 100px;
@@ -172,50 +170,46 @@ body{
     margin-top: 10px;
 }
 
-.black_logo img{
+.black_logo img {
     height: 40px;
     width: 140px;
 }
 
-.social_network img{ 
+.social_network img {
     height: 24px;
     width: 24px;
     margin-left: 20px;
 }
 
-._3bht :hover{
+._3bht :hover {
     font-weight: bold;
 }
-.social_network :hover{
+
+.social_network :hover {
     height: 30px;
     width: 30px;
 }
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
-
-    body{
-        margin: 0;
-        padding: 0;
+    html,
+    body {
+        overflow-x: hidden;
     }
 
-    .panel_1{
+    .app_store_b {
+        width: 40%;
+    }
+
+    .media_1 {
+        flex-direction: column;
+    }
+
+    .container {
         display: flex;
-        /* width: 100%; */
-        /* height: 100%; */
-        /* flex-direction: column; */
-    /* } */
-
-    /* #phrase h1{
-        font-size: 20px;
     }
 
-    .footer{
-        background-color: #000;
-        background-size: cover;
-        width: 200%;
-        height: 100%;
-    } */
-
-
-/* } */
+    section {
+        flex: 1 ;
+    }
+}
